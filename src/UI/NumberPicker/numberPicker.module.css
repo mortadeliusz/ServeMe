@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.number-picker {
+  display: flex;
+  gap: 5px;
+  font-family: "Secular One", sans-serif;
+  align-items: center;
+}
+.number-picker__value {
+  font-size: 1.5rem;
+}
+.number-picker__button {
+  background-color: inherit;
+  border: none;
+}
+.number-picker__button:hover {
+  cursor: pointer;
+}

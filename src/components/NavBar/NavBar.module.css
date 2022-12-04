@@ -1,0 +1,38 @@
+/* @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"); */
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: linear-gradient(
+    30deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(200, 200, 200, 0.25) 100%
+  ); */
+  background-color: rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0px 1px 1px #372535);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.item {
+  cursor: pointer;
+}
+.user-panel,
+.menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.avatar {
+  border-radius: 50%;
+  max-height: 25px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

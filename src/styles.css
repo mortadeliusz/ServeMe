@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+  --main-color: #0b9499;
+  --main-font-color: #dbfdf2;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  color: var(--main-font-color);
+  background-color: var(--main-color);
+  margin: 0px;
+  padding: 0px;
+}

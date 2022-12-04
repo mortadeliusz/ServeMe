@@ -1,0 +1,12 @@
+.attributed-image {
+  display: flex;
+  flex-direction: column;
+}
+.attributed-image img {
+  max-width: 100%;
+}
+.attributed-image a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
